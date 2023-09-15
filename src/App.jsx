@@ -1,12 +1,11 @@
-import Header from "./components/Header";
-
-
-
+import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
     <>
-     <Header/>
+    <div className="bg-gray-100 min-h-screen">
+     <Navbar/>
+     </div>
     </>
   )
 }
