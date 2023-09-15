@@ -7,8 +7,8 @@ import logo from '../assets/logo_white3.5.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#3B536D] text-[#EFF7FF] p-4">
-      <div className="flex flex-col lg:flex-row justify-between items-center">
+    <footer className="bg-[#3B536D] text-[#EFF7FF] py-10 ">
+      <div className="flex flex-col lg:flex-row justify-between items-center ">
         {/* Left side */}
         <div className=" w-full order-2 lg:order-1 justify-center items-center align-middle text-center lg:w-1/3">
           <div className="mb-4">

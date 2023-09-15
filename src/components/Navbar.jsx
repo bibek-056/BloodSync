@@ -51,7 +51,7 @@ const Navbar = () => {
             &times;
           </button>
         </div>
-        <ul className="flex uppercase text-lg text-[#3B536D] lg:text-[#eff7ff]  flex-col space-y-14 lg:space-y-0 lg:space-x-8 lg:flex-row justify-center items-center h-full ">
+        <ul className="flex uppercase text-2xl font-semibold text-[#3B536D] lg:text-lg lg:text-[#eff7ff]  flex-col space-y-14 lg:space-y-0 lg:space-x-8 lg:flex-row justify-center items-center h-full ">
           <li className="hover:text-[#92E4DC]">
             <a href="https://inspireuvic.org/about">About</a>
           </li>
@@ -85,7 +85,7 @@ const Navbar = () => {
             onMouseLeave={toggleNetworkDropdown}
             className="hover:text-[#92E4DC]"
           >
-            <a href="#">Network</a>
+            <p className='cursor-pointer'>Network</p>
             {networkDropdownOpen && (
               <div
                 className={` uppercase absolute top-0 right-52 mt-12 bg-[#3B536D]

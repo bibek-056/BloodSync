@@ -1,30 +1,30 @@
-import { MdOutlineKeyboardBackspace } from "react-icons/md";
-import Samikxya from "../assets/Samikxya.jpg";
-import leela from "../assets/leela.jpg";
-import Sarovar from "../assets/Sarovar.jpg";
-import Bibek from "../assets/Bibek.jpg";
+import { MdOutlineKeyboardBackspace } from 'react-icons/md';
+import Samikxya from '../assets/Samikxya.jpg';
+import leela from '../assets/leela.jpg';
+import Sarovar from '../assets/Sarovar.jpg';
+import Bibek from '../assets/Bibek.jpg';
 
 const Project = () => {
   const teamMembers = [
     {
-      name: "Bibek Adhikari",
+      name: 'Bibek Adhikari',
       image: Bibek,
-      bio: "Ashma is a final year student of Bachelor in Computer Engineering at the Institute of Engineering, Tribhuvan University; she aspires to be not just a programmer but also a creator, designer, and hopefully a successful artist. Building her confidence, competency, and proficiency along with her team, her soul is fueled with an ambition to contribute to her country and has faith that one day, she shall become someone that is received as a zealous girl with determination to emerge from her world of Kafkaesque.",
+      bio: 'Ashma is a final year student of Bachelor in Computer Engineering at the Institute of Engineering, Tribhuvan University; she aspires to be not just a programmer but also a creator, designer, and hopefully a successful artist. Building her confidence, competency, and proficiency along with her team, her soul is fueled with an ambition to contribute to her country and has faith that one day, she shall become someone that is received as a zealous girl with determination to emerge from her world of Kafkaesque.',
     },
     {
-      name: "Leela Saud",
+      name: 'Leela Saud',
       image: leela,
-      bio: "Ashma is a final year student of Bachelor in Computer Engineering at the Institute of Engineering, Tribhuvan University; she aspires to be not just a programmer but also a creator, designer, and hopefully a successful artist. Building her confidence, competency, and proficiency along with her team, her soul is fueled with an ambition to contribute to her country and has faith that one day, she shall become someone that is received as a zealous girl with determination to emerge from her world of Kafkaesque.",
+      bio: 'Ashma is a final year student of Bachelor in Computer Engineering at the Institute of Engineering, Tribhuvan University; she aspires to be not just a programmer but also a creator, designer, and hopefully a successful artist. Building her confidence, competency, and proficiency along with her team, her soul is fueled with an ambition to contribute to her country and has faith that one day, she shall become someone that is received as a zealous girl with determination to emerge from her world of Kafkaesque.',
     },
     {
-      name: "Samikxya Kadka",
+      name: 'Samikxya Kadka',
       image: Samikxya,
-      bio: "Ashma is a final year student of Bachelor in Computer Engineering at the Institute of Engineering, Tribhuvan University; she aspires to be not just a programmer but also a creator, designer, and hopefully a successful artist. Building her confidence, competency, and proficiency along with her team, her soul is fueled with an ambition to contribute to her country and has faith that one day, she shall become someone that is received as a zealous girl with determination to emerge from her world of Kafkaesque.",
+      bio: 'Ashma is a final year student of Bachelor in Computer Engineering at the Institute of Engineering, Tribhuvan University; she aspires to be not just a programmer but also a creator, designer, and hopefully a successful artist. Building her confidence, competency, and proficiency along with her team, her soul is fueled with an ambition to contribute to her country and has faith that one day, she shall become someone that is received as a zealous girl with determination to emerge from her world of Kafkaesque.',
     },
     {
-      name: "Sarovar Bhandari",
+      name: 'Sarovar Bhandari',
       image: Sarovar,
-      bio: "Ashma is a final year student of Bachelor in Computer Engineering at the Institute of Engineering, Tribhuvan University; she aspires to be not just a programmer but also a creator, designer, and hopefully a successful artist. Building her confidence, competency, and proficiency along with her team, her soul is fueled with an ambition to contribute to her country and has faith that one day, she shall become someone that is received as a zealous girl with determination to emerge from her world of Kafkaesque.",
+      bio: 'Ashma is a final year student of Bachelor in Computer Engineering at the Institute of Engineering, Tribhuvan University; she aspires to be not just a programmer but also a creator, designer, and hopefully a successful artist. Building her confidence, competency, and proficiency along with her team, her soul is fueled with an ambition to contribute to her country and has faith that one day, she shall become someone that is received as a zealous girl with determination to emerge from her world of Kafkaesque.',
     },
   ];
   return (
