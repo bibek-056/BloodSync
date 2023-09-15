@@ -63,18 +63,18 @@ const Navbar = () => {
             <a href="https://inspireuvic.org/projects">Project</a>
             {projectsDropdownOpen && (
               <div
-                className={`absolute top-0 right-80 mt-12 bg-[#3B536D] text-[#eff7ff]  border border-[#3B536D] py-2 px-4 w-60`}
+                className={`uppercase absolute top-0 right-80 mt-12 bg-[#3B536D] text-[#eff7ff]  border border-[#3B536D] py-2 px-4 w-60`}
               >
                 {/* Add your dropdown content here */}
                 <ul>
                   <li className="hover:text-[#92E4DC]">
-                    <a href="#">Project Item 1</a>
+                    <a href="https://inspireuvic.org/fall2023">fall 2023</a>
                   </li>
                   <li className="hover:text-[#92E4DC]">
-                    <a href="#">Project Item 2</a>
+                    <a href="https://inspireuvic.org/fall2022">FALL 2022</a>
                   </li>
                   <li className="hover:text-[#92E4DC]">
-                    <a href="#">Project Item 3</a>
+                    <a href="https://inspireuvic.org/summer2022">Summer 2022</a>
                   </li>
                 </ul>
               </div>
@@ -88,20 +88,33 @@ const Navbar = () => {
             <a href="#">Network</a>
             {networkDropdownOpen && (
               <div
-                className={`absolute top-0 right-52 mt-12 bg-[#3B536D]
+                className={` uppercase absolute top-0 right-52 mt-12 bg-[#3B536D]
                  text-[#eff7ff] border border-[#3B536D] py-2 px-4 w-60`}
               >
                 {/* Add your dropdown content here */}
                 <ul>
-                  <li className="hover:text-[#92E4DC]">
-                    <a href="#">Network Item 1</a>
+                  <li className=" uppercase hover:text-[#92E4DC]">
+                    <a href="https://inspireuvic.org/ambassadors">
+                      Ambassadors
+                    </a>
                   </li>
                   <li className="hover:text-[#92E4DC]">
-                    <a href="#">Network Item 2</a>
+                    <a href="https://inspireuvic.org/design-challenges">
+                      Design Challanges
+                    </a>
                   </li>
                   <li className="hover:text-[#92E4DC]">
-                    <a href="#">Network Item 3</a>
+                    <a href="https://inspireuvic.org/community">
+                      Community
+                    </a>
                   </li>
+                  <li className="hover:text-[#92E4DC]">
+                    <a href="https://inspireuvic.org/initiatives">
+                     Learn More....
+                    </a>
+                  </li>
+
+                  {/* https://inspireuvic.org/initiatives */}
                 </ul>
               </div>
             )}
@@ -114,27 +127,38 @@ const Navbar = () => {
             <a href="#">Media</a>
             {mediaDropdownOpen && (
               <div
-                className={`absolute top-0 right-0 mt-12
+                className={` uppercase absolute top-0 right-0 mt-12
                 bg-[#3B536D] text-[#eff7ff] border border-[#3B536D] py-2 px-4 w-60`}
               >
                 {/* Add your dropdown content here */}
                 <ul>
                   <li className="hover:text-[#92E4DC]">
-                    <a href="#">Media Item 1</a>
+                    <a href="https://inspireuvic.org/newsletters-copy">
+                      Newsletter
+                    </a>
                   </li>
                   <li className="hover:text-[#92E4DC]">
-                    <a href="#">Media Item 2</a>
+                    <a href="https://inspireuvic.org/inspire-podcast">
+                      Podcast
+                    </a>
                   </li>
                   <li className="hover:text-[#92E4DC]">
-                    <a href="#">Media Item 3</a>
+                    <a href="https://inspireuvic.org/testimonials">
+                      Testimonials
+                    </a>
+                  </li>
+                  <li className="hover:text-[#92E4DC]">
+                    <a href="https://inspireuvic.org/program-guide">
+                      Program Reports
+                    </a>
                   </li>
                 </ul>
               </div>
             )}
           </li>
-          <li >
-            <div className=' rounded-full text-[#3B536D] px-4 py-1 mr-2 bg-[#eff7ff]'>
-            <a href="https://inspireuvic.org/join-us">Contact</a>
+          <li>
+            <div className=" hover:bg-[rgb(185,209,233)] uppercase rounded-full text-[#3B536D] px-4 py-1 mr-2 bg-[#eff7ff]">
+              <a href="https://inspireuvic.org/join-us">Contact</a>
             </div>
           </li>
         </ul>

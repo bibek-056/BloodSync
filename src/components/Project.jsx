@@ -60,7 +60,7 @@ const Project = () => {
         <p className="text-5xl leading-10 tracking-wide text-[#3B536D]">TEAM</p>
         <div className=" flex flex-wrap justify-center gap-24">
           {teamMembers.map((oneMember) => (
-            <div className="relative w-80 m-6">
+            <div key={oneMember.name} className="relative w-80 m-6">
               <img
                 src={oneMember.image}
                 alt="teamMember"
@@ -79,7 +79,7 @@ const Project = () => {
         </p>
         <div className="flex flex-col gap-5 items-center">
           {teamMembers.map((oneMember) => (
-            <div className="flex flex-col gap-2">
+            <div key={oneMember.name} className="flex flex-col gap-2">
               <div className="m-3 p-3 text-center font-bold leading-10 text-3xl text-[#3B536D]">
                 {oneMember.name}
               </div>
