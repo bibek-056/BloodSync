@@ -132,8 +132,10 @@ const Navbar = () => {
               </div>
             )}
           </li>
-          <li>
+          <li >
+            <div className=' rounded-full text-[#3B536D] px-4 py-1 mr-2 bg-[#eff7ff]'>
             <a href="https://inspireuvic.org/join-us">Contact</a>
+            </div>
           </li>
         </ul>
       </div>
