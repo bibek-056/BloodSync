@@ -1,6 +1,6 @@
 import { MdOutlineKeyboardBackspace } from 'react-icons/md';
-import Samikxya from '../assets/Samikxya.jpg';
-import leela from '../assets/leela.jpg';
+import Samiksha from '../assets/Samiksha.jpg';
+import Leela from '../assets/Leela.jpg';
 import Sarovar from '../assets/Sarovar.jpg';
 import Bibek from '../assets/Bibek.jpg';
 
@@ -9,26 +9,26 @@ const Project = () => {
     {
       name: 'Bibek Adhikari',
       image: Bibek,
-      bio: 'Ashma is a final year student of Bachelor in Computer Engineering at the Institute of Engineering, Tribhuvan University; she aspires to be not just a programmer but also a creator, designer, and hopefully a successful artist. Building her confidence, competency, and proficiency along with her team, her soul is fueled with an ambition to contribute to her country and has faith that one day, she shall become someone that is received as a zealous girl with determination to emerge from her world of Kafkaesque.',
+      bio: 'Bibek is a recent graduate of Pashchimanchal Campus, Institute of Engineering, Tribhuvan University, specializing in Electronics, Communication, and Information Engineering. He possesses coding experience in frontend web development and a strong desire to explore emerging technologies. Bibek has a keen interest in data science and analytics, as well as a knack for designing IoT-based devices. In his leisure time, he contemplates reading books but often opts for watching movies due to a lack of motivation for extended reading sessions.',
     },
     {
       name: 'Leela Saud',
-      image: leela,
-      bio: 'Ashma is a final year student of Bachelor in Computer Engineering at the Institute of Engineering, Tribhuvan University; she aspires to be not just a programmer but also a creator, designer, and hopefully a successful artist. Building her confidence, competency, and proficiency along with her team, her soul is fueled with an ambition to contribute to her country and has faith that one day, she shall become someone that is received as a zealous girl with determination to emerge from her world of Kafkaesque.',
+      image: Leela,
+      bio: 'Leela is a final year student of Bachelor in Computer Science and Information Technology (B.SC.CSIT) studying in Padmakanya Multiple Campus affiliated to Tribhuvan University. Besides programming, she is also passionate about data analytics, keen-observation and in-depth-research. During her leisure hours, she finds solace in spontaneous writing, letting her thoughts flow freely without constraints. She is also an outdoor enthusiast who often goes hiking and exploring new natural places.',
     },
     {
-      name: 'Samikxya Kadka',
-      image: Samikxya,
-      bio: 'Ashma is a final year student of Bachelor in Computer Engineering at the Institute of Engineering, Tribhuvan University; she aspires to be not just a programmer but also a creator, designer, and hopefully a successful artist. Building her confidence, competency, and proficiency along with her team, her soul is fueled with an ambition to contribute to her country and has faith that one day, she shall become someone that is received as a zealous girl with determination to emerge from her world of Kafkaesque.',
+      name: 'Samiksha Khadka',
+      image: Samiksha,
+      bio: 'Samiksha Khadka hails from the rural region of Okhaldhunga. She is currently a third-year undergraduate student, majoring in Computer Science at Padma Kanya Multiple Campus. Apart from her proficiency in communication, she excels at listening, therfore you will often find her with the earphones on, enjoying music. Beyond her love for technology, Samiksha holds a deep fascination for policy-making. She is known for infusing Nepali jargon into her casual conversations, adding a unique and local flavor to her interactions.',
     },
     {
       name: 'Sarovar Bhandari',
       image: Sarovar,
-      bio: 'Ashma is a final year student of Bachelor in Computer Engineering at the Institute of Engineering, Tribhuvan University; she aspires to be not just a programmer but also a creator, designer, and hopefully a successful artist. Building her confidence, competency, and proficiency along with her team, her soul is fueled with an ambition to contribute to her country and has faith that one day, she shall become someone that is received as a zealous girl with determination to emerge from her world of Kafkaesque.',
+      bio: 'Sarovar is a 3rd year computer science undergrad student studying in Tribhuvan university. Sarovar aspires to create software that is genuinely helpful for everyone. When he is not coding or watching football, you will find him playing a game of chess or exploring nature.',
     },
   ];
   return (
-    <div className="p-20">
+    <div className=" p-5 md:p-20">
       <div className="m-4">
         <p className="flex gap-2 items-center justify-start leading-4 text-[#3B536D] hover:text-black hover:underline cursor-pointer ">
           <MdOutlineKeyboardBackspace /> PROJECTS (FALL 2023)
@@ -58,7 +58,7 @@ const Project = () => {
       </div>
       <div className=" flex flex-col gap-4 m-5 mt-20 text-center">
         <p className="text-5xl leading-10 tracking-wide text-[#3B536D]">TEAM</p>
-        <div className=" flex flex-wrap justify-center gap-24">
+        <div className=" flex flex-wrap justify-center gap-20">
           {teamMembers.map((oneMember) => (
             <div key={oneMember.name} className="relative w-80 m-6">
               <img
@@ -66,7 +66,7 @@ const Project = () => {
                 alt="teamMember"
                 className="rounded-3xl"
               />
-              <div className=" absolute -right-16 -bottom-6 bg-blue-300 flex items-start justify-start h-24 w-72 px-10 py-4">
+              <div className=" absolute  -right-10 md:-right-16 -bottom-6 bg-blue-300 flex items-start justify-start h-12 md:h-24 md:w-72 px-10 py-4">
                 <p className=" text-lg leading-6">{oneMember.name}</p>
               </div>
             </div>
