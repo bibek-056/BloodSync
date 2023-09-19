@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Project from "../components/Project";
 import Footer from "../components/Footer";
-import './app.css'
+import '../app.css'
 
 const Home = () => {
   return (
