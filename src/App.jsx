@@ -1,16 +1,12 @@
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
-import Project from './components/Project';
-import './app.css'
+import Home from "./Pages/Home";
+import { Route, Routes } from "react-router";
 
 export default function App() {
   return (
     <>
-      <div className="bg-gray-100 min-h-screen">
-        <Navbar />
-        <Project/>
-        <Footer />
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </>
   );
 }
